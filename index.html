@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/modelcar.css">
+    <script src="js/toycar.js" defer></script>
+    <title>Model Toy Car</title>
+</head>
+<body>
+    <!--div to display model car-->
+    <div class="modelCar" id="modelCarDisplay">
+        <!--added option to select car object-->
+        <select id="selectCar">
+            <option value="fordBronco">Ford Bronco</option>
+            <option value="chevyCamaro">Chevy Camaro</option>
+        </select>
+        <!--Car name changes based on car object-->
+        <h2 id="carName"></h2>
+            <!--car image-->
+            <img id="carImage" src="images/fordbronco.jpg" alt="Model Toy Car">
+            <!--properties of toyCar object i chose to display-->
+            <div class="property">
+                <label>Brand:</label> <span id="brand"></span>
+            </div>
+            <div class="property">
+                <label>Model:</label> <span id="model"></span>
+            </div>
+            <div class="property">
+                <label>Color:</label> <span id="color"></span>
+            </div>
+                <!--Input for user to change scale-->
+            <div class="property">
+                <label>Scale:</label>
+                <select id="scaleInput">
+                    <option value="1/24" selected>1/24</option>
+                    <option value="1/18">1/18</option>
+                    <option value="1/12">1/12</option>
+                </select>
+                <!--Button to change size-->
+                <button id="button">Change size</button>
+            </div>
+            <!--display price of object-->
+            <div class="property">
+                <label>Price:</label>  $<span id="price"></span>
+            </div>
+     </div>    
+    
+</body>
+</html>

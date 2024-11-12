@@ -1,0 +1,60 @@
+body {
+    font-family: Arial;
+    background-color: #547c8f;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* styling for the car div */
+.modelCar {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 500px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* styling for the header */
+.modelCar h2 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 28px;
+    color: #f89358;
+}
+
+/* styling for image */
+.modelCar img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* styling for the properties */
+.property {
+    margin: 15px 0;
+}
+
+.property label {
+    font-weight: bold;
+    display: inline-block;
+    width: 100px; 
+}
+
+
+.property span,
+.property select {
+    display: inline-block;
+    font-size: 16px;
+}
+
+/* Price style/color */
+#price {
+    font-size: 20px;
+    color: #e28148;
+    font-weight: bold;
+}
